@@ -1,46 +1,42 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Titulo de la web</title>
+    <title>Proyecto Easy MERN Stack Server</title>
 </head>
 <body>
-    <header>
-        <h1>Titulo de la WEB</h1>
-    </header>
-    <nav>
-        <a href="prueba.html">Ir seleccion 1</a>
-        <a href="prueba.html">Ir seleccion 2</a>
-    </nav>
-    <section>
-        <h2>CONTENIDO PRINCIPAL</h2>
-        <article>
-            <div>
-                <p>Este es e contenido principal de mi web</p>
-            </div>
-            <div>
-                <p>Aqui tienes una imagen</p>
-                <img src="test" alt="test">
-            </div>
-        </article>
-    </section>
-    <aside>
-        <p>Banner de publicidad</p>
-        <img src="test" alt="test">
-        <p>Testimonios</p>
-        <p>Me gusta mucho esta página</p>
-    </aside>
-    <footer>
-        <div>
-            <p>avisos legales</p>
-            <a href="test">Politica de coockies</a>
-        </div>
-        <div>
-            <p>Redes sociales</p>
-            <a href="test">Mi Facebook</a>
-        </div>
-    </footer>
+    <h1>Proyecto Easy MERN Stack Server</h1>
+    <p>Este proyecto es un servidor de lado del servidor construido con Node.js, Express y MongoDB. Está diseñado para proporcionar una API para aplicaciones web y móviles.</p>
+
+    <h2>Información del Proyecto</h2>
+    <ul>
+        <li><strong>Nombre del Proyecto:</strong> easy-mern-stack-server</li>
+        <li><strong>Versión:</strong> 1.0.0</li>
+        <li><strong>Autor:</strong> Miles Till</li>
+        <li><strong>Licencia:</strong> MIT</li>
+        <li><strong>Palabras Clave:</strong> server, api, node, express, mongodb</li>
+    </ul>
+
+    <h2>Dependencias</h2>
+    <h3>Dependencias Principales:</h3>
+    <ul>
+        <li><strong>body-parser:</strong> ^1.18.3 - Middleware para analizar datos en solicitudes HTTP.</li>
+        <li><strong>easy-mern-stack-shared:</strong> ^1.0.0 - Compartir código y recursos en el proyecto.</li>
+        <li><strong>express:</strong> 4.17.1 - Framework de aplicaciones web para Node.js.</li>
+        <li><strong>http-status-codes:</strong> ^1.3.0 - Colección de códigos de estado HTTP y mensajes asociados.</li>
+        <li><strong>mongoose:</strong> 5.5.13 - Biblioteca de modelado de objetos MongoDB para Node.js.</li>
+    </ul>
+
+    <h3>Dependencias de Desarrollo:</h3>
+    <ul>
+        <li><strong>monopack:</strong> ^0.2.6 - Herramienta de desarrollo y construcción.</li>
+    </ul>
+
+    <h2>Scripts</h2>
+    <ul>
+        <li><strong>build:</strong> rimraf build && yarn monopack build src/main.js</li>
+        <li><strong>dev:</strong> nodemon --inspect src/main.js</li>
+        <li><strong>start:</strong> yarn dev</li>
+    </ul>
 </body>
 </html>
